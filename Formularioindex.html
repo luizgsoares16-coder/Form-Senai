@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário de Casdastro</title>
+</head>
+<body>
+    <form>
+        <h2 style="color: rgb(0, 0, 197);">Inscrição SENAI</h2>
+        <br>
+        <p><label for="Nome Completo">Nome completo:</label></p>
+        <p><input type="text" id="Nome Completo" name="Nome" style="padding: 7px 63px;" required></p>
+
+        <p><label for="E-mail">E-mail:</label></p>
+        <p><input type="text" id="E-mail" name="E-mail" placeholder="xxxx@gmail.com" style="padding: 7px 63px;" required ></p>
+
+        <p><label for="telefone">Telefone:</label></p>
+        <p><input type="text" id="telefone" name="telefone" placeholder="(xx) 9 xxxx-xxxx" style="padding: 7px 63px;" required></p>
+
+        <p><label for="Curso">Curso desejado:</label></p>
+        <p><select name="Curso" id="Curso" style="padding: 7px 48px;" required></p>
+            <option value="Nda">None</option>
+            <option value="DS">Desenvolvimento de Sistemas</option>
+            <option value="AT">Automação Industrial</option>
+            <option value="Mecatrônica">Mecatrônica</option>
+            <option value="Eletromecânica">Eletromecânica</option>
+            <option value="Soldagem">Soldagem</option>
+            <option value="Logística">Logística</option>
+            <option value="Edificações">Edificações</option>
+        </select>
+        
+        <p><label for="Obs">Observações:</label></p>
+        <p><input type="text" id Obs name="Obs" style="padding: 29px 63px;"></p>
+
+        <p><button onclick="location.href='Alunoindex.html'" style="border-radius: 5px; padding: 10px 102px; background-color: darkblue; color: aliceblue; border: 0px; cursor: pointer;">Enviar Inscrição</button></p>
+
+        <a href="Alunoindex.html" style="padding: 0px 104px;">Já Sou aluno!</a></p>
+        </form>
+
+
+
+    
+</body>
+</html>

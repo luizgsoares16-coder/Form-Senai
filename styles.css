@@ -1,0 +1,21 @@
+body{
+background-color: blue;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 95vh;
+flex-direction: column;
+}
+
+form{
+background-color: white;
+padding: 70px;
+border-radius: 7px;
+box-shadow: 0 0 10px black;
+width: 10;
+}
+
+h2{
+    align-items: center;
+    text-align: center;   
+}

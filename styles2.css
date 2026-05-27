@@ -1,0 +1,24 @@
+body{
+    background-color: blue;
+}
+
+h2{
+    flex-direction: column;
+    padding: 250px 0px;
+    text-align: center;
+    color: aliceblue;
+}
+
+a{
+    padding: 0px 915px;
+}
+
+button{
+    background-color: rgb(56, 255, 56);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+    padding: 6px 30px;
+    
+}
